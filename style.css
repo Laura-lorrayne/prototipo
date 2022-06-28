@@ -1,8 +1,6 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -68,25 +66,69 @@
   }
 /*  FIM NAVBAR*/
 .imagem-principal{
- height: 550px;
+ height: 600px;
  width: 100%;
  color: aliceblue;
+ opacity: 0.2;
 
 }
 
 .conteudo{
   color: aliceblue;
-  margin-top: 5%;
   margin-left: 10%;
   margin-right: 10%;
+  
 }
+
 .texto-principal{
   color: aliceblue;
-  text-align: center;
-  margin-bottom: 1%;
+  position:absolute;
+  z-index:1;
+  top:auto;
+  margin-top: 2%;
 }
-.conteudo-principal{
+.texto-seundario{
+  color:#6495ED;
+  position:absolute;
+  z-index:1;
+  top:auto;
+  margin-top: 6%;
+}
 
-    float: left;
+
+#login  #login-row #login-column #login-box  {
+  max-width: 800px;
+  height: 520px;
+  position:absolute;
+  z-index:1;
+  margin-left: -7%;
+
 
 }
+#login  #login-row #login-column #login-box #login-form {
+  padding: 7% 80px;
+  
+  
+}
+
+.btn{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center; 
+ 
+}
+.btnConta{
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center; 
+ 
+}
+
+.form-group input{
+  margin-bottom: 50px;
+  
+}
+#login-form{
+  margin: 10px 40px;
+}
+
