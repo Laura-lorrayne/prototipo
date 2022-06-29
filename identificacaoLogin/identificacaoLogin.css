@@ -1,0 +1,86 @@
+@import url("../color.css");
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  .body{
+    color: var(--branco);
+    font-size: 100%;
+  }
+  
+.linha{
+    display: flex;
+    flex-flow: row wrap;
+}
+.coluna-1 {
+    width: 50%;
+    height: 100%;
+}
+.coluna-2 {
+    width: 50%;
+    height: 100%;
+    max-height: 100%;
+    background-color: var(--azulEscuro);
+    padding: 315px;
+}
+
+
+
+  .imagem{
+   width: 250px;
+   color: var(--branco);
+   margin-top: -450px;
+   margin-left: -80px;
+  
+  }
+  
+  .conteudo{
+    color: var(--branco);
+    margin-left: 10%;
+    margin-right: 10%;
+    
+  }
+  
+  .texto-principal{
+    color: var(--branco);
+    position:absolute;
+    z-index:1;
+    top:auto;
+    margin-top: 15%;
+  }
+  .texto-seundario{
+    color:var(--azul);
+    position:absolute;
+    z-index:1;
+    top:auto;
+    margin-top: 15%;
+  }
+  
+  .texto-principal2{
+    color: var(--branco);
+    position:absolute;
+    z-index:1;
+    top:auto;
+    margin-top: -80px;
+   margin-left: -150px;
+  }
+  .texto-seundario2{
+    color:var(--azul);
+    position:absolute;
+    z-index:1;
+    top:auto;
+
+    margin-top: 50px;
+   margin-left: -250px;
+  }
+  .texto-seundario3{
+    color:var(--azulClaro);
+    position:absolute;
+    z-index:1;
+    top:auto;
+    margin-top: 200px;
+   margin-left: -15px;
+  }
+  

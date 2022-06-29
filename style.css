@@ -1,3 +1,5 @@
+@import url("./color.css");
+
 * {
   margin: 0;
   padding: 0;
@@ -5,7 +7,7 @@
 }
 
 .body{
-  color: aliceblue;
+  color: var(--branco);
   font-size: 100%;
 }
 
@@ -68,27 +70,27 @@
 .imagem-principal{
  height: 600px;
  width: 100%;
- color: aliceblue;
+ color: var(--branco);
  opacity: 0.2;
 
 }
 
 .conteudo{
-  color: aliceblue;
+  color: var(--branco);
   margin-left: 10%;
   margin-right: 10%;
   
 }
 
 .texto-principal{
-  color: aliceblue;
+  color: var(--branco);
   position:absolute;
   z-index:1;
   top:auto;
   margin-top: 2%;
 }
 .texto-seundario{
-  color:#6495ED;
+  color:var(--azul);
   position:absolute;
   z-index:1;
   top:auto;
