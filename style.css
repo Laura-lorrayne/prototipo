@@ -70,9 +70,7 @@
 .imagem-principal{
  height: 600px;
  width: 100%;
- color: var(--branco);
- opacity: 0.2;
-
+ opacity: 0.4;
 }
 
 .conteudo{
@@ -83,7 +81,7 @@
 }
 
 .texto-principal{
-  color: var(--branco);
+  color: var(--preto);
   position:absolute;
   z-index:1;
   top:auto;
@@ -109,7 +107,6 @@
 }
 #login  #login-row #login-column #login-box #login-form {
   padding: 7% 80px;
-  
   
 }
 

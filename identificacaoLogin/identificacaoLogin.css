@@ -37,14 +37,14 @@
   }
   
   .conteudo{
-    color: var(--branco);
+    color: var(--preto);
     margin-left: 10%;
     margin-right: 10%;
     
   }
   
   .texto-principal{
-    color: var(--branco);
+    color: var(--preto);
     position:absolute;
     z-index:1;
     top:auto;
@@ -86,59 +86,8 @@
   }
 
   /*card*/
-  .card{
-    position: relative;
-    width: 50px;
-    height: 250px;
-    color: red;
-    margin-left: 40px;
-    background: url(../img/identificacaologin.jpg) center no-repeat;
-    background-size: cover;
-    border-radius: 20px;
-    margin-top: 100px;
-    overflow: hidden;
-  }
-  .card-content{
+ .bloco{
+ padding-top: 300px;
+  margin-left: 40px;
 
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 20px;
-    background-color: var(--azulClaro);
-    border-top-left-radius: 20px;
-    transform: translateY(70px);
-    transition: transform .25s;
-  }
-  .card-content::before{
-    content: "";
-
-    top: -47px;
-    right: -45px;
-    width: 100px;
-    height: 100px;
-    transform: rotate(-175deg);
-    border-radius: 50%;
-    box-shadow: inset 48px 48px;
-    color: aliceblue;
-
-  }
-  .card-title{
-    color: blue;
-    line-height: 15px;
-    font-size: 15px;
-  }
-
-  .card-description{
-    font-size: 15px;
-    opacity: 0;
-    transition: opacity 0.5s;
-  }
-
-  .card:hover .card-content{
-    transform: translateY(0);
-  }
-  .card:hover .card-description{
-    opacity: 1;
-    transition-delay:  .25s;
-  }
-  
+ }

@@ -71,11 +71,11 @@
 
 
 .texto-principal{
-    color: var(--branco);
+    color: var(--preto);
     text-align: center;
     margin-bottom: 50px;
 }
 .conteudo-secundario{
-    color: var(--branco);
+    color: var(--preto);
     text-align: center;
 }

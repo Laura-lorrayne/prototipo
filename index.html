@@ -8,11 +8,11 @@
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
 </head>
-<body class="bg-dark">
+<body >
     <main >
 
         <div class="container">
-            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom  text-white">
+            <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom  text-dark">
               <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 v text-decoration-none">
                 <img class="logo" src="./img/logo.jpg" alt="">
               </a>
@@ -25,8 +25,9 @@
               </ul>
         
               <div class="col-md-3 text-end">
-                <button type="button" class="btn btn-outline-primary me-2">Login</button>
-                <button type="button" class="btn btn-primary">Sign-up</button>
+                <a href="./login/login.html" type="button" class="btn btn-outline-primary me-2">Login</a>
+                <a href="./identificacaoLogin/identificacaoLogin.html" type="button" class="btn btn-outline-primary me-2">Cadastro</a>
+
               </div>
             </header>
         </div>
@@ -44,18 +45,18 @@
                               <form id="login-form" class="form" action="" method="post">
                                   <h3 class="text-center text-white">Crie sua conta</h3>
                                   <div class="form-group">
-                                      <label for="username" class="text-white">Email:</label><br>
+                                      <label for="username" class="text-dark">Email:</label><br>
                                       <input type="text" name="username" id="username" class="form-control">
                                   </div>
                                   <div class="form-group">
-                                      <label for="password" class="text-white">Senha:</label><br>
+                                      <label for="password" class="text-dark">Senha:</label><br>
                                       <input type="text" name="password" id="password" 
                                       
                                       class="form-control">
                                       
                                   </div>
                                   <div class="form-group">
-                                      <label for="password" class="text-white">Confirme a Senha:</label><br>
+                                      <label for="password" class="text-dark">Confirme a Senha:</label><br>
                                       <input type="text" name="password" id="password" 
                                       
                                       class="form-control">
@@ -63,7 +64,7 @@
                                   </div>
                                   
                                   <div class="btnConta">
-                                      <button type="button" class="btn btn-outline-primary me-2">Começar</button>
+                                    <a href="./identificacaoLogin/identificacaoLogin.html" type="button" class="btn btn-outline-primary me-2">Começar</a>
                                   </div>
                               </form>
                           </div>
@@ -75,7 +76,7 @@
         </div>
         
 
-        <img class="imagem-principal" src="./img/estudo.jpg">
+        <img class="imagem-principal bg-dark" src="./img/estudo.jpg">
   
 
         
