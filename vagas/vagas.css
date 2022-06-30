@@ -213,6 +213,7 @@
       display: flex;
       justify-content: center;
       font-size: 1.5rem;
+      color: var(--azul);
     }
   
     .btn:hover, .btn:focus {
@@ -224,11 +225,12 @@
     /*botões*/
     .btn-info {
         padding: 4px 4px;
-        background: rgba(255, 255, 255, 0.1);
+        background: var(--amarelo);
         font-size: .9rem;
         border-radius: 6rem;
-        color: aliceblue;
+        color: var(--preto);
         margin-bottom: 5px;
+        font-weight: bold;
     }
     
   
