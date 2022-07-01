@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+     <!--Bootstrap-->
+    
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">    
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h3>Dados Pessoais</h3>
+            <form>
+                
+                <div class="row">
+                    <div class="col-4">
+                        <label for="exampleFormControlSelect1">Nome Completo</label>
+                        <input type="text" class="form-control" >
+                    </div>
+                
+                    <div class="col-2">
+                        <label for="exampleFormControlSelect1">Sua Cidade</label>
+                        <input type="text" class="form-control" placeholder="Ex: Luziania" >
+                    </div>
+                    
+                    <div class="col-2">
+                        <label for="exampleFormControlSelect1">Telefone para contato</label>
+                        <input type="tel" class="form-control" placeholder="(61) 99244-7885" >
+                    </div>
+                    <h3>Foto de perfil</h3>
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Perfis com foto têm até 30% mais chances de receber convites para entrevistas. </label> <br>
+                        <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                      </div>
+                
+                    
+                    <h3>Carreira</h3>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Qual é a sua carreira?</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Em qual áreas deseja atuar</option>
+                          <option>teste</option>
+                        </select>
+                    </div>
+                    <div class="form-check">
+                        <label for="exampleFormControlSelect1"><strong> Tempo de experiência</strong> </label> <br>
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Quero começar!
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            Entre 1 e 2 anos
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            Entre 3 e 5 anos
+                        </label>
+                    </div>
+
+                    <div class="form-check">
+                        <label for="exampleFormControlSelect1"><strong>Nível de inglês</strong></label> <br>
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            <strong class="titulo-check"> Ótimo </strong><br>
+                            <p class="descricao-check">Consigo manter conversas, me comunicar de<br>
+                            forma clara e documentar o meu processo de <br>
+                            trabalho.</p>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            <strong class="titulo-check"> Até que bom </strong><br>
+                            <p class="descricao-check">Consigo ler e escrever, mas tenho dificuldades<br>
+                            na hora de manter uma conversa. <br></p>
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+                        <label class="form-check-label" for="exampleRadios2">
+                            <strong class="titulo-check"> Básico </strong><br>
+                            <p class="descricao-check">Consigo ler e escrever com a ajuda de um tradutor<br></p>
+                        </label>
+                    </div>
+                    <h3>Carreira</h3>
+                    <div class="col-4">
+                        <label for="exampleFormControlSelect1">URL do meu perfil</label>
+                        <input type="text" class="form-control" placeholder="http://www.linkedin.com/in/SeuNome" >
+                    </div>
+                    <h3>Histórico Profissional</h3>
+                    <div class="col-4">
+                        <label for="exampleFormControlSelect1">Adicione pelo menos uma experiência para continuar.</label>
+                        <input type="text" class="form-control" placeholder="http://www.linkedin.com/in/SeuNome" >
+                    </div>
+                    <h3>Adicionar Experiência</h3>
+                    <div class="col-4">
+                        <label for="exampleFormControlSelect1">Cargo</label>
+                        <input type="text" class="form-control" placeholder="Digite o seu cargo" >
+                    </div>
+                  
+                    <div class="col-4">
+                        <label for="exampleFormControlSelect1">Empresa</label>
+                        <input type="text" class="form-control" placeholder="Digite o nome da empresa" >
+                    </div>
+                    <div class="col-2">
+                        <label for="exampleFormControlSelect1">Data de início</label>
+                        <input type="date" class="form-control"  >
+                    </div>
+                    <div class="col-2">
+                        <label for="exampleFormControlSelect1">Data de término</label>
+                        <input type="date" class="form-control"  >
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                        <label class="form-check-label" for="defaultCheck1">
+                            Ainda trabalho aqui
+                        </label>
+                    </div>
+                    <div class="form-group "> 
+                        <label for="exampleFormControlTextarea1">Descrição das atividades</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+                    
+                    <button type="button" class="btn btn-success col-2">Salvar</button>
+                    <button type="button" class="btn btn-danger col-2">Cancelar</button>
+
+                    <h3>Adicionar Formação academica</h3>
+                    <div class="col-4">
+                        <label for="exampleFormControlSelect1">Curso</label>
+                        <input type="text" class="form-control" placeholder="Nome do curso que você fez" >
+                    </div>
+                    <div class="col-4">
+                        <label for="exampleFormControlSelect1">Instituição de ensino</label>
+                        <input type="text" class="form-control" placeholder="Nome da instituição" >
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="inputState">Nível</label>
+                        <select id="inputState" class="form-control">
+                          <option selected>Nível do curos</option>
+                          <option>Cursando</option>
+                          <option>tecnico</option>
+                          <option>bacharelado</option>
+                          <option>tecnologo</option>
+                        </select>
+                    </div>
+                    <div class="col-2">
+                        <label for="exampleFormControlSelect1">Data de conclusão (ou previsão)</label>
+                        <input type="date" class="form-control"  >
+                    </div>
+                    <button type="button" class="btn btn-success col-2">Salvar</button>
+                    <button type="button" class="btn btn-danger col-2">Cancelar</button>
+
+                    <h3>Adicionar Curriculo </h3>
+                        <div class="form-group">
+                          <label for="exampleFormControlFile1">Currculo em pdf</label> <br>
+                          <input type="file" class="form-control-file" id="exampleFormControlFile1">
+                        </div>
+                    <h3>Suas habilidades </h3>
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <div class="card-body">
+                              <h5 class="card-title">Suas 2 skills principais</h5>   
+                            </div>
+                            <div class="card-footer">
+                                <h5> retornar valores selecionados </h5>                  
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn-info">JavaScript</button>
+                                <button type="button" class="btn-info">HTML</button>
+                                <button type="button" class="btn-info">SCSS</button>
+                                <button type="button" class="btn-info">TypeScript</button>
+                                <button type="button" class="btn-info">Angular</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>  
+                    
+                    <div class="form-check">
+                        <label for="exampleFormControlSelect1"><strong> Tempo de experiência {{primeira e e segunda skill}</strong> </label> <br>
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Quero começar!
+                        </label>
+                    </div>
+
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        <div class="col">
+                          <div class="card h-100">
+                            <div class="card-body">
+                              <h5 class="card-title">Outras skills</h5>   
+                            </div>
+                            <div class="card-footer">
+                                <h5> retornar valores selecionados </h5>                  
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn-info">JavaScript</button>
+                                <button type="button" class="btn-info">HTML</button>
+                                <button type="button" class="btn-info">SCSS</button>
+                                <button type="button" class="btn-info">TypeScript</button>
+                                <button type="button" class="btn-info">Angular</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                    <h3>Outras informações</h3>
+                    <div class="col-4">
+                        <label for="exampleFormControlSelect1">Pretensão salarial mensal</label>
+                        <input type="number" class="form-control" >
+                    </div>
+                    <div class="form-check">
+                        <label for="exampleFormControlSelect1"><strong> Modelo de contratação</strong> </label> <br>
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            CLT
+                        </label>
+                        
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            PJ
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                        <label class="form-check-label" for="exampleRadios1">
+                            Estou disponovel para ambos
+                        </label>
+                    </div>
+                    
+                              
+                    
+                  
+                </div>    
+            </form>
+
+        </div>
+    </main>
+
+     <!--Bootstrap-->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    
+</body>
+</html>
