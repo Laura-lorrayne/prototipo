@@ -102,12 +102,13 @@
   position:absolute;
   z-index:1;
   margin-left: -11%;
+  margin-top: -80px;
 
 
 
 }
 #login  #login-row #login-column #login-box #login-form {
-  padding: 0% 80px;
+  padding: 0px 80px;
   
 }
 
@@ -129,6 +130,6 @@
   
 }
 #login-form{
-  margin: 10px 40px;
+  margin: 10px 0px;
 }
 

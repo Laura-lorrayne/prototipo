@@ -1,0 +1,8 @@
+tela inicial
+matricula
+select -> faculdade cadastrada
+
+
+dados pessoais
+Cpf
+CEP

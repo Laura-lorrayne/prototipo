@@ -77,7 +77,21 @@
   color: var(--branco);
   margin-left: 10%;
   margin-right: 10%;
-  
+}
+
+.conteudo-principal {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.conteudo-secundario {
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+
 }
 
 .texto-principal{
@@ -95,39 +109,57 @@
   margin-top: 6%;
 }
 
-
-#login  #login-row #login-column #login-box  {
-  max-width: 800px;
-  height: 520px;
-  position:absolute;
-  z-index:1;
-  margin-left: -7%;
-
-
-}
-#login  #login-row #login-column #login-box #login-form {
-  padding: 7% 80px;
+.conteudo {
+  margin-bottom: 48px;
   
 }
 
-.btn{
-  font-size: 1.5rem;
+
+.conteudo-principal {
   display: flex;
-  justify-content: center; 
- 
-}
-.btnConta{
-  font-size: 1.5rem;
-  display: flex;
-  justify-content: center; 
- 
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
 
-.form-group input{
-  margin-bottom: 50px;
-  
+.conteudo-secundario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 21px;
 }
-#login-form{
-  margin: 10px 40px;
+
+.conteudo-secundario-titulo {
+  padding-top: 10px;
+  font-family: 'Righteous', cursive;
+  font-weight: 400;
+  font-size: 1.8rem;
+  color: var(--azul);
+}
+
+.conteudo-secundario-paragrafo {
+  font-family: 'Sarala', sans-serif;
+  font-weight: 300;
+  font-size: 1rem;
+  color: var(--preto);
+}
+
+.texto-carrosel{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1C1C1C	;
+
+}
+
+ 
+.texto-carrosel h4{
+color: var(--amarelo-principal);
+}
+
+
+.texto-carrosel p{
+color: var(--branco-principal);
+font-size: 1.1rem;
 }
 
