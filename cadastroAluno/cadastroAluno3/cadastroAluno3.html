@@ -33,7 +33,7 @@
                     </div>
                     <br>
                     <div class="form-check">
-                        <label for="exampleFormControlSelect1"><strong> Tempo de experiência</strong> </label> <br>
+                        <label for="exampleFormControlSelect1"><strong> Tempo de experiência</strong> </label> <br> <br>
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
                         <label class="form-check-label" for="exampleRadios1">
                             Quero começar!
@@ -53,7 +53,7 @@
                     </div>
                     <br>
                     <div class="form-check">
-                        <label for="exampleFormControlSelect1"><strong>Nível de inglês</strong></label> <br>
+                        <label for="exampleFormControlSelect1"><strong>Nível de inglês</strong></label> <br> <br>
                         <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
                         <label class="form-check-label" for="exampleRadios1">
                             <strong class="titulo-check"> Ótimo </strong><br>
@@ -78,7 +78,7 @@
                         </label>
                     </div>
 
-                    <h3>Histórico Profissional</h3>
+                    <h3>Histórico Profissional</h3> <br>
                     <div class="col-4">
                         <h5>Linkedin</h5>   
                         <input type="text" class="form-control" placeholder="http://www.linkedin.com/in/SeuNome" >
@@ -87,123 +87,125 @@
                         <h5>Portfólio</h5>
                         <input type="text" class="form-control" >
                     </div> <br>
-                    <h3>Adicionar Experiência</h3>  
-                    <label for="exampleFormControlSelect1">Adicione pelo menos uma experiência para continuar.</label><br> <br>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo"> 
-                        Adicionar Experiência
-                    </button> <br> <br>
 
-                      <!-- Modal -->
-                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Experiência</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            </div>
-                            <div class="modal-body">
-                                div class="col-4">
-                                <label for="exampleFormControlSelect1">Cargo</label>
-                                <input type="text" class="form-control" placeholder="Digite o seu cargo" >
-                            </div>
-                          
-                            <div class="col-4">
-                                <label for="exampleFormControlSelect1">Empresa</label>
-                                <input type="text" class="form-control" placeholder="Digite o nome da empresa" >
-                            </div>
-                            <div class="col-2">
-                                <label for="exampleFormControlSelect1">Data de início</label>
-                                <input type="date" class="form-control"  >
-                            </div>
-                            <div class="col-2">
-                                <label for="exampleFormControlSelect1">Data de término</label>
-                                <input type="date" class="form-control"  >
-                            </div>
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-                                <label class="form-check-label" for="defaultCheck1">
-                                    Ainda trabalho aqui
-                                </label>
-                            </div>
-                            <div class="form-group "> 
-                                <label for="exampleFormControlTextarea1">Descrição das atividades</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            </div>
-                            <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                            <button type="button" class="btn btn-primary">Salvar mudanças</button>
-                            </div>
-                        </div>
-                        
-                    </div>
                     
 
                     <h3>Adicionar Formação academica</h3><br>
-                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modalExemplo">
+                    <label for="exampleFormControlSelect1">Adicione sua formação academica para  continuar.</label><br> <br>
+
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal2">
                         Adicionar Formação academica
-                      </button> <br> <br>
-
-
-                      <!-- Modal -->
-                    <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Curso</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                            </div>
-                            <div class="modal-body">
-                                <div class="col-4">
-                                    <label for="exampleFormControlSelect1">Instituição de ensino</label>
-                                    <input type="text" class="form-control" placeholder="Nome da instituição" >
+                    </button> <br> <br>
+                      
+                      <!-- Modal Formação academica -->
+                      <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Adicionar Experiência</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                 </div>
-            
-                                <div class="col-2">
-                                    <label for="exampleFormControlSelect1">Data de conclusão (ou previsão)</label>
-                                    <input type="date" class="form-control"  >
-                                </div>
-            
-                                <h3>Outras informações</h3>
-                                <div class="col-4">
-                                    <label for="exampleFormControlSelect1">Pretensão salarial mensal</label>
-                                    <input type="number" class="form-control" >
-                                </div>
-                                <div class="form-check">
-                                    <label for="exampleFormControlSelect1"><strong> Modelo de contratação</strong> </label> <br>
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="exampleRadios1">
-                                        CLT
-                                    </label>
+                                <div class="modal-body">
+                                    <div class="col-6">
+                                        <label for="exampleFormControlSelect1">Instituição de ensino</label>
+                                        <input type="text" class="form-control" placeholder="Nome da instituição" >
+                                    </div>
+                
+                                    <div class="col-4">
+                                        <label for="exampleFormControlSelect1">Data de conclusão (ou previsão)</label>
+                                        <input type="date" class="form-control"  >
+                                    </div>
+                
                                     
                                 </div>
-                                <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="exampleRadios1">
-                                        PJ
-                                    </label>
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-primary">Salvar</button>
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>    
                                 </div>
+                        </div>
+                    </div>  
+                    </div>
+
+                    <h3>Adicionar Experiência</h3>  
+                    <label for="exampleFormControlSelect1">Adicione pelo menos uma experiência para continuar.</label><br> <br>
+                   
+                    <!-- Button Experiência -->
+                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                        Adicionar Experiência
+                    </button> <br> <br>
+                    
+                    <!-- Modal Experiência -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Adicionar Experiência</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="col-6">
+                                    <label for="exampleFormControlSelect1">Cargo</label>
+                                    <input type="text" class="form-control"  >
+                                </div><br>
+                                <div class="col-6">
+                                    <label for="exampleFormControlSelect1">Empresa</label>
+                                    <input type="text" class="form-control"  >
+                                </div> <br> 
+            
+                                <div class="col-4">
+                                    <label for="exampleFormControlSelect1">Data de início</label>
+                                    <input type="date" class="form-control"  >
+                                </div> <br>
+                                <div class="col-4">
+                                    <label for="exampleFormControlSelect1">Data de término</label>
+                                    <input type="date" class="form-control"  >
+                                </div><br>
                                 <div class="form-check">
-                                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-                                    <label class="form-check-label" for="exampleRadios1">
-                                        Estou disponovel para ambos
+                                    <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                                    <label class="form-check-label" for="defaultCheck1">
+                                        Ainda trabalho aqui
                                     </label>
+                                  </div> <br>
+                                <div class="form-floating">
+                                    <textarea class="form-control" placeholder="Leave a comment here" id="Textarea2" style="height: 100px"></textarea>
+                                    <label for="floatingTextarea2">descrição do cargo</label>
                                 </div>
+                                
                             </div>
                             <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-                            <button type="button" class="btn btn-primary">Salvar mudanças</button>
+                            <button type="button" class="btn btn-primary">Salvar</button>
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                            
                             </div>
                         </div>
                         </div>
+                    </div> <br>
+
+                    <h3>Outras informações</h3>
+                    <div   class = "col-4">
+                    <label for   = "exampleFormControlSelect1">Pretensão salarial mensal</label>
+                    <input type  = "number" class = "form-control" >
+                    </div> <br>
+
+                    <div class="form-check">
+                    <label for="exampleFormControlSelect1"><strong> Modelo de contratação</strong> </label> <br> <br>
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">CLT</label>                   
+                    </div>  
+
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">PJ</label>
                     </div>
+
+                    <div class="form-check">
+                    <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+                    <label class="form-check-label" for="exampleRadios1">Estou disponivel para ambos</label>
+                    </div> <br>
+                
+
                     <div class="btnConta">
-                        <a href="../cadastroAluno4/cadastroAluno4.html" type="button" class="btn btn-outline-primary me-2">Proxima etapa</a>
-                      
+                    <a href="../cadastroAluno4/cadastroAluno4.html" type="button" class="btn btn-outline-primary me-2">Proxima etapa</a>   
                     </div>
 
                 </div>    
