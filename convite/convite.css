@@ -8,7 +8,10 @@
 
 .body{
   color: var(--branco);
+  background-color: #808080;
   font-size: 100%;
+  height: auto;
+  width: auto;
 }
 
 /* NAVBAR*/
@@ -67,11 +70,6 @@
 
   }
 /*  FIM NAVBAR*/
-.imagem-principal{
- height: 600px;
- width: 100%;
- opacity: 0.4;
-}
 
 .conteudo{
   color: var(--branco);
@@ -84,6 +82,7 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-around;
+  
 }
 
 .conteudo-secundario {
@@ -114,7 +113,6 @@
   
 }
 
-
 .conteudo-principal {
   display: flex;
   flex-direction: row;
@@ -143,7 +141,24 @@
   font-size: 1rem;
   color: var(--preto);
 }
+.fieldset-convite{
+  margin: 20px 100px;
+}
+.logo-empresa{
+  width: 8%;
+  margin-bottom: 20px;
+}
 .fieldset{
-  background-color: darkslategray;
+  background-color: var(--branco);
+  margin: 20px 100px;
+  width: 90%;
+  height: auto;
+  color: black;
+}
+.informacao-vaga{
+  margin: 20px 100px;
+}
+.fieldset a{
+  margin: 2% 85%;
 }
 
