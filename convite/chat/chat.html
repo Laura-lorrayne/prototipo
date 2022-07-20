@@ -2,7 +2,7 @@
 <html lang="pt-br"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>templete</title>
-    <link href="./convite.css" rel="stylesheet">
+    <link href="./chat.css" rel="stylesheet">
 
     <!--Bootstrap-->
     
@@ -32,7 +32,7 @@
       <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zM2.5 2a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zM1 10.5A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3zm6.5.5A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3zm1.5-.5a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
     </symbol>
   </svg>
-  <main class="body" >  
+  <main >  
 
     <div class="px-3 py-2 bg-dark text-white">
             <div class="container">
@@ -75,35 +75,124 @@
               </div>
             </div>
     </div>
-
+    
     <div class="body">
-        <div class="fieldset-convite">
-        <h2>Meus convites</h2>
+      <fieldset class="fieldset">
+        <div class="informacao-vaga">
+        <img class="logo-empresa" src="../../img/logo-cast.png" alt="">
+        <h3>Desenvolvedor Angular</h3> <br> 
+        <h4>Aguardando <br> </h4>
+        <h4>Regime de contratação: <strong> CLT</strong><br> </h4>
+        <h4>Faixa salarial: R$:7.000 - R$:8.000</h4>
         </div>
-        <fieldset class="fieldset">
-          <div class="informacao-vaga">
-          <img class="logo-empresa" src="../img/logo-cast.png" alt="">
-          <h3>Desenvolvedor Angular</h3> <br> 
-          <h4>Aguardando <br> </h4>
-          <h4>Regime de contratação: <strong> CLT</strong><br> </h4>
-          <h4>Faixa salarial: R$:7.000 - R$:8.000</h4>
-          </div>
-          <a href="./chat/chat.html" type="button" class="btn btn-outline-primary me-2">Ver Conversa</a>
-        </fieldset>
+      </fieldset>
+      <fieldset class="fieldset-entrevista">
+        <div class="informacao-vaga">
+        <h3>Entrevistas</h3> <br> 
+        <h4>Sem entrevistas agendadas<br> </h4>
+        </div>
+      </fieldset>
 
-        
-        <fieldset class="fieldset">
-          <div class="informacao-vaga">
-          <img class="logo-empresa" src="../img/pixeon_pixeon.png" alt="">
-          <h3>Desenvolvedor Angular</h3> <br> 
-          <h4>Aguardando <br> </h4>
-          <h4>Regime de contratação: <strong> CLT</strong><br> </h4>
-          <h4>Faixa salarial: R$:7.000 - R$:8.000</h4>
+      <div class="page-content page-container" id="page-content">
+        <div class="padding">
+            <div class="row container d-flex justify-content-center">
+              <div class="col-md-6">
+                <div class="card card-bordered">
+                  <div class="card-header">
+                    <h4 class="card-title"><strong>Chat</strong></h4>
+                    <a class="btn btn-xs btn-secondary" href="#" data-abc="true">Let's Chat App</a>
+                  </div>
+    
+    
+                  <div class="ps-container ps-theme-default ps-active-y" id="chat-content" style="overflow-y: scroll !important; height:400px !important;">
+                    <div class="media media-chat">
+                      <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                      <div class="media-body">
+                        <p>Hi</p>
+                        <p>How are you ...???</p>
+                        <p>What are you doing tomorrow?<br> Can we come up a bar?</p>
+                        <p class="meta"><time datetime="2022">23:58</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-meta-day">Today</div>
+    
+                    <div class="media media-chat media-chat-reverse">
+                      <div class="media-body">
+                        <p>Hiii, I'm good.</p>
+                        <p>How are you doing?</p>
+                        <p>Long time no see! Tomorrow office. will be free on sunday.</p>
+                        <p class="meta"><time datetime="2018">00:06</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat">
+                      <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                      <div class="media-body">
+                        <p>Okay</p>
+                        <p>We will go on sunday? </p>
+                        <p class="meta"><time datetime="2018">00:07</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat media-chat-reverse">
+                      <div class="media-body">
+                        <p>That's awesome!</p>
+                        <p>I will meet you Sandon Square sharp at 10 AM</p>
+                        <p>Is that okay?</p>
+                        <p class="meta"><time datetime="2018">00:09</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat">
+                      <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                      <div class="media-body">
+                        <p>Okay i will meet you on Sandon Square </p>
+                        <p class="meta"><time datetime="2018">00:10</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat media-chat-reverse">
+                      <div class="media-body">
+                        <p>Do you have pictures of Matley Marriage?</p>
+                        <p class="meta"><time datetime="2018">00:10</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat">
+                      <img class="avatar" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                      <div class="media-body">
+                        <p>Sorry I don't have. i changed my phone.</p>
+                        <p class="meta"><time datetime="2018">00:12</time></p>
+                      </div>
+                    </div>
+    
+                    <div class="media media-chat media-chat-reverse">
+                      <div class="media-body">
+                        <p>Okay then see you on sunday!!</p>
+                        <p class="meta"><time datetime="2018">00:12</time></p>
+                      </div>
+                    </div>
+    
+                  <div class="ps-scrollbar-x-rail" style="left: 0px; bottom: 0px;"><div class="ps-scrollbar-x" tabindex="0" style="left: 0px; width: 0px;"></div></div><div class="ps-scrollbar-y-rail" style="top: 0px; height: 0px; right: 2px;"><div class="ps-scrollbar-y" tabindex="0" style="top: 0px; height: 2px;"></div></div></div>
+    
+                  <div class="publisher bt-1 border-light">
+                    <img class="avatar avatar-xs" src="https://img.icons8.com/color/36/000000/administrator-male.png" alt="...">
+                    <input class="publisher-input" type="text" placeholder="Write something">
+                    <span class="publisher-btn file-group">
+                      <i class="fa fa-paperclip file-browser"></i>
+                      <input type="file">
+                    </span>
+                    <a class="publisher-btn" href="#" data-abc="true"><i class="fa fa-smile"></i></a>
+                    <a class="publisher-btn text-info" href="#" data-abc="true"><i class="fa fa-paper-plane"></i></a>
+                  </div>
+    
+              </div>
+            </div>
           </div>
-          <a href="./chat/chat.html" type="button" class="btn btn-outline-primary me-2">Ver Conversa</a>
-        </fieldset>
-
-    </div>
+        </div>
+      </div>
+     </div>
 
   </main>
     <!--Bootstrap-->
